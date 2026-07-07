@@ -60,5 +60,13 @@
 - [x] **E2Eテスト残りシナリオ**: シナリオ1〜6すべて合格（必須C-1〜C-4・推奨C-5〜C-6）
 - [x] **forge.mdのphase更新漏れ修正**: 手順5に`phase`→`release`、手順6に`phase`→`report`（完走の最終状態）に更新する記述を追加。kw-counterの`pipeline_status.json`の`phase`も`"done"`→`"report"`に修正済み
 - [x] **READMEの手順を新規クローン環境で再現確認**: 記述と実態の矛盾なし。テスト残骸の削除により公開用にクリーンな状態にした
-- [ ] 初回コミット＆GitHub公開（ユーザー承認必須）
-- [ ] フィードバック窓口（GitHub Issues）整備
+- [x] **初回コミット＆GitHub公開**: `.claude/settings.local.json`（マシン固有設定）を`.gitignore`で除外した上でrootコミット作成。ユーザー承認のもと https://github.com/KenV1024/Forge （Public）へpush完了
+- [x] **フィードバック窓口（GitHub Issues）整備**: リポジトリでIssues機能が有効なことを確認。`.github/ISSUE_TEMPLATE/bug_report.md`（フェーズ・操作・発生事象の報告フォーマット）を作成し、README「フィードバック」節にIssuesへの直リンクを追加
+
+## 2026-07-08: ベータ公開ブロッカーすべて解消 → パブリックベータ公開完了
+- [x] 必須E2E（C-1〜C-4）・推奨E2E（C-5・C-6）全シナリオ合格
+- [x] forge.mdのphase更新漏れバグ修正
+- [x] READMEの正確性確認・テスト残骸クリーンアップ
+- [x] 初回コミット＆GitHub公開（https://github.com/KenV1024/Forge, Public）
+- [x] フィードバック窓口整備
+- 次のアクション: 実際のベータユーザーからのフィードバック待ち。`docs/beta_readiness_checklist.md`と`docs/quality_checklist.md`は今後forge本体に変更を加えるたびに再実施する
