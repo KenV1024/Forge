@@ -1,0 +1,27 @@
+{
+  "name": "tell-build",
+  "version": "1.0.0",
+  "description": "TellBuildは、Claude Code上で動く**ソフトウェア開発の自動パイプライン**です。 作りたいものを一言伝えると、6体の専門AIエージェントがリレー形式で 「要件ヒアリング → 実装 → テスト → 公開 → 報告 → 改善」を進めます。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenV1024/tell-build.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KenV1024/tell-build/issues"
+  },
+  "homepage": "https://github.com/KenV1024/tell-build#readme",
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
